@@ -1,7 +1,5 @@
 extern crate sdl2;
 
-struct Thing { x: i32, y: i32 }
-
 fn main() {
     let sdl = sdl2::init().unwrap();
     let video = sdl.video().unwrap();
